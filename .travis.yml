@@ -22,8 +22,19 @@ after_success:
   - docker push cloud119/multi-worker
 
 # Login to the docker CLI
+# Take those images and push them to docker hub..
 
- 
-# Take those images and push them to docker hub
+deploy:
+  provider: elasticbeanstalk
+  region: "us-east-2"
+  app: multi-docker
+  env: MultiDocker-env
+  bucket_name: elasticbeanstalk-us-east-2-397450896582
+  bucket_path: docker-multi
+  on:
+    branch: master
+  access_key_id: $AWS_ACCESS_KEY
+  secret_access_key:
+    secure: $AWS_SECRET_KEY
 
 

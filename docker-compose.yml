@@ -30,6 +30,7 @@ services:
       - REDIS_HOST=redis
       - REDIS_PORT=6379
       - PGUSER=postgres
+      - PGHOST=postgres
       - PGDATABASE=postgres
       - POSTGRES_PASSWORD=postgres_password
       - PGPORT=5432
