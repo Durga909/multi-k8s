@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hey This is DURGA SRINIVASA RAO WEBSITE.....
         </a>
       </header>
       <div>
