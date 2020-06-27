@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hey This is DURGA SRINIVASA RAO WEBSITE.....
+          Hey This is KRISHANTH LEKHASHREE PUTTY PATTIII.....
         </a>
       </header>
       <div>
