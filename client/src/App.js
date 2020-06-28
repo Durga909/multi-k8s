@@ -20,7 +20,7 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Hey This is KRISHANTH LEKHASHREE PUTTY PATTIII.....
+          Hey This is LaddiLekhu LEKHASHREE PUTTY PATTIII app running on Kubernetes.....
         </a>
       </header>
       <div>
