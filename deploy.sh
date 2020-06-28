@@ -1,6 +1,6 @@
 docker build -t cloud119/multi-client:latest -t cloud119/multi-client:$SHA -f ./client/Dockerfile ./client 
 docker build -t cloud119/multi-server:latest -t cloud119/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t cloud119/multi-worker:latest -t cloud119/multi-worker:$SHA -f ./workder/Dockerfile ./worker
+docker build -t cloud119/multi-worker:latest -t cloud119/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 docker push cloud119/multi-client:latest
 docker push cloud119/multi-server:latest
 docker push cloud119/multi-worker:latest
